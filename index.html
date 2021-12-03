@@ -1,123 +1,170 @@
-<!DOCTYPEhtml>
-<html lang="es" dir="LTR">
-<head>
-	<meta charset="utf-8" />
-	<meta description="Web del Curso IFCD0110 de Confección y Publicación de Páginas Web  Aprende HTML5, CSS y JavaScript con nosotros. Somos los mejores.Cambiando y probando" />
-	<title>IFCD0110 Curso Web</title>
-</head>
-<body> 
-	<header>
+<! DOCTYPE html >
+< html  lang = es  dir = LTR >
+    <! - Cabecera oculta del documento web ->
+    < cabeza >
+        <! - Juego de caracteres de casi todos los idiomas humanos (incluidos ñ, tildes ...) ->
+        < meta  conjunto de caracteres = utf-8 />
+        <! - Escala inicial y renderizado _responsive_ por el ancho del dispositivo ->
+        < meta  name = " viewport " content = " width = device-width, initial-scale = 1 " />
+        <! - Compatibilidad con Microsoft Explorer ->
+        < meta  http-equiv = " X-UA-Compatible " content = " IE = edge " />
+        <! - Indéxame y sígueme ->
+        < meta  name = " robots " content = " noIndex, noFollow " />
+        <! - Breve descripción del sitio que se verá en los resultados de búsqueda ->
+        < meta  name = " description " content = " Sitio web de prueba elaborado en el curso de Confeccion y Publicación de Páginas Web (IFCD0110). Aprende HTML5, CSS / 3 y Javascript con nosotros. " />
+        <! - Ruta a las hojas de estilos ->
+        < link  rel = " stylesheet " type = " text / css " href = " /assets/css/application.css " />
+        <! - Ruta al favicon ->
+    	< link  rel = " icono de acceso directo " href = " /assets/img/favicon.ico " type = " image / vnd.microsoft.icon " />
+        <! - Etiqueta global del sitio (gtag.js) - Google Analytics ->
+        < script  async  src = " https://www.googletagmanager.com/gtag/js?id=UA-XXXX-n " > </ script >
+        < guión >
+            ventana . dataLayer  =  ventana . dataLayer  ||  [ ] ;
+            function  gtag ( ) { dataLayer . empujar ( argumentos ) ; }
+            gtag ( 'js' ,  nueva  fecha ( ) ) ;
 
-            <a href="index.html" title="página principal">
-                <figure>
-                <img src="images/logo100.jpg" alt="Logo de mi Web"/>
-                </figure>
-            </a>
-                	
-                <h1>Mi web supermolona</h1>
-	</header>
-			<a href="../index.html" title="página principal">
-				<figure>
-				<img src="https://teorema-rd.com/storage/2020/05/Html5-JS-css-logo-1024x576.jpg" width="100px"/>	
-            	</figure>
-	<nav>
+            gtag ( 'configuración' ,  'UA-XXXX-n' ) ;
+        </ script >
+        <! - Título de la pestaña ->
+        < título > IFCD0110 | Inicio </ título >
+    </ cabeza >
 
-            <h2 class="pechado">Menú principal</h2>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-            </ul>
-                <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-    </nav>
-        <!-- Contenido principal de la página web -->
-        <main>
+    <! - Cuerpo visible del documento web ->
+    < cuerpo >
+        < encabezado >
+            < Un  href = " index.html " >
+                < figura >
+                    < img  src = " images / logo_100.jpg " alt = " Logo del sitio web " />
+                </ figura >
+                < h1 > Proyecto del Curso de Confección y Publicación de Páginas Web </ h1 >
+            </ a >
+            < p  class = " pechado " > Proyecto web del curso IFCD0110 </ p >
+        </ encabezado >
+        <! - Menú de navegación principal del sitio ->
+        < nav >
+            < h2  class = " pechado " > Menú principal </ h2 >
+            < ul >
+                < li > Categorías
+                    < ul >
+                        < li >
+                            < Un  href = " categorías / html5.html " título =" Ir a la página de HTML 5 " > HTML5 </ una >
+                        </ li >
+                        < li >
+                            < Un  href = " categorías / css.html " título =" Ir a la página de CSS " > CSS </ a >
+                        </ li >
+                        < li >
+                            < Un  href = " categorías / js.html " título =" Ir a la página de Javascript " > Javascript </ a >
+                        </ li >
+                        < li >
+                            < Un  href = " categorías / lorem.html " título =" Ir a la página de Lorem Ipsum " > Lorem Ipsum </ una >
+                        </ li >
+                    </ ul >
+                </ li >
+                < li >
+                    < Un  href = " páginas / nosotros.html " > Nosotros </ a >
+                </ li >
+                < li >
+                    < Un  href = " páginas / contacto.html " > Contacto </ a >
+                </ li >
+            </ ul >
+        </ nav >
+        <! - Contenido principal de la página web ->
+        < principal >
+            < Br />
+            < h />
+            < sección >
+                < h2 > El elemento < em > sección </ em > en HTML </ h2 >
+                < artículo >
+                    < h3 > Resumen </ h3 >
+                    < p >
+                        El elemento de HTML < em > sección </ em > representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. < Br />
+                        Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.
+                    </ p >
+                    < p >
+                        Es, por lo tanto, < fuerte > una etiquéta semántica </ fuerte > . Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de usuario que representa el documento en voz, podría exponer al usuario el índice de contenido por niveles para navegar rápidamente por las distintas partes.
+                    </ p >
+                </ artículo >
+                < artículo >
+                    < h3 > Notas de uso </ h3 >
+                    < p >
+                        Si la intención es indicar el contenido de un elemento, el mejor usar el elemento < em > artículo </ em >
+                     </ p >
+                     < p >
+                         las secciones indican que los artículos que contienen tienen algo común entre ellos, como
+                     </ p >
+                     < ul >
+                         < li >
+                             < fuerte > Esta sección </ fuerte > que tiene 3 artículos para mostrar contenido sobre el elemento < em > sección </ em >
+                         </ li >
+                         < li >
+                             < strong > La portada de una revista o blog </ strong > que contiene varios artículos sobre los contenidos para ofrecer al visitante
+                         </ li >
+                         < li >
+                             < fuerte > La sección siguiente de esta página </ fuerte > que contiene varios artículos sobre < em > Lorem Ipsum </ em >
+                         </ li >
+                     </ ul >
+                </ artículo >
 
-	</nav>
-	<main>
-		<article>
-		
-			<h2>HTML5 Y CSS</h2>
-			<p>Originalmente, las páginas HTML sólo incluían información sobre sus contenidos de texto e imagenes. Con el desarrollo del estándar HTML, las páginas empezaron a incluir también información sobre el aspecto de sus contenidos: tipos de letra, colores y márgenes.</p>
-			<p>La posterior aparición de tecnologías como JavaScript, provocaron que las páginas HTML también incluyeran el código de las aplicaciones (llamadas scripts) que se utilizan para crear páginas web dinámicas.</p>
-			<p>Incluir en una misma página HTML los contenidos, el diseño y la programación complica en exceso su mantenimiento. Normalmente, los contenidos y el diseño de la página web son responsabilidad de diferentes personas, por lo que es conveniente separarlos</p>
-			<p>CSS es el mecanismo que permite separar los contenidos definidos mediante XHTML y el aspecto que deben presentar esos contenidos:</p>
-			<p>Figura 1.2 Esquema de la separación de los contenidos y su presentación
-
-Una ventaja añadida de la separación de los contenidos y su presentación es que los documentos XHTML creados son más flexibles, ya que se adaptan mejor a las diferentes plataformas: pantallas de ordenador, pantallas de dispositivos móviles, impresoras y dispositivos utilizados por personas discapacitadas.</p>
-
-		</article>	
-		<a href="https://www.google.com/" title="este es el enlace de Tania para ir a Google" target ="_blank" rel="nofollow">Llévame a Google</a>
-		<ul>
-			<li>Carne</li>
-			<li>Pasta</li>
-			<li>Fruta
-				<ul>	
-					<li>Manzanas</li>
-					<li>Peras</li>
-					<li>Bananas</li>
-				</ul>	
-			</li>
-		</ul>
-<ul type="square">
-			<li>Carne</li>
-			<li>Pasta</li>
-			<li>Fruta
-				<ul>	
-					<li>Manzanas</li>
-					<li>Peras</li>
-					<li>Bananas</li>
-				</ul>	
-			</li>
-		</ul>			
-	</main>
-	
-	
-	<ul>
-			<li>Nosotros</li>
-			<li>
-				<a href="pages/contacto.html" title="contacta con">
-						Contacto
-						</a>
-			
-			</li>
-			
-			<li>Manuales
-				<ul>
-					<li>
-						<a href="https://es.wikipedia.org/wiki/HTML5"
-						title="enlace" target="_blank">HTML5</a>
-					</li>
-					<li>
-						<a href="https://es.wikipedia.org/wiki/HTML5"
-						title="enlace" target="_blank">CSS</a>
-					</li>	
-					<li>
-						<a href="https://es.wikipedia.org/wiki/HTML5"
-						title="enlace" target="_blank">JAVASCRIPT</a>
-					</li>
-				</ul>
-				
-					
-				</ul>	
-					</li>
-						
-				</ul>
-	
- 
-	
-</body>
-
-
-
-
-
-
-
-</html>
+                < Un  href = " # barra lateral izquierda " título =" Ir a la barra lateral Izquierda " > Soy un enlace al Elemento < em > lado </ em > </ una >
+            </ sección >
+            < h />
+            < sección >
+                < h2 > Lorem ipsum </ h2 >
+                < artículo >
+                    < h3 > ¿Qué es Lorem Ipsum? </ h3 >
+                    < p >
+                        < Fuerte > Referencias </ fuerte > < br />
+                    </ p >
+                    < ul >
+                        < li >
+                            < Un  href = " https://es.lipsum.com/ " target =" _blank " > es.lipsum.com </ una >
+                        </ li >
+                        < li >
+                            < Un  href = " https://loremipsum.io/es/ " > loremipsum.io </ una >
+                        </ li >
+                    </ ul >
+                    < p >
+                        < strong > Lorem Ipsum </ strong > es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró un libro de textos especimen. No sólo sobrevivió 500 años, sino que también ingresó como texto de relleno en documentos electrónicos, quedando igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", los cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+                    </ p >
+                </ artículo >
+                < artículo >
+                    < h3 > ¿Por qué lo usamos? </ h3 >
+                    < p >
+                        Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+                    </ p >
+                </ artículo >
+                < artículo >
+                    < h3 > ¿De dónde viene? </ h3 >
+                    < p >
+                        Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza clásica de la literatura del latín, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento.
+                    </ p >
+                    < p >
+                        El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.
+                    </ p >
+                </ artículo >
+                < artículo >
+                    < h3 > ¿Dónde puedo conseguirlo? </ h3 >
+                    < p >
+                        Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones de alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitas estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet ofrecen una repetición de trozos predefinidos cuando sea necesario, haciendo este único generador verdadero (válido) en Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum generado siempre estará libre de repeticiones,
+                    </ p >
+                </ artículo >
+                <! - Pie de la sección ->
+                < pie de página > </ pie de página >
+            </ sección >
+            < h />
+            < aside  id = " sidebar-left " >
+                < h2 > Título de la barra lateral </ h2 >
+                < nav >
+                    < ul >
+                        < Li > < un  href = " # " > Ir al Artículo 1 </ una > </ li >
+                        < Li > < un  href = " # " > Ir al Artículo 2 </ una > </ li >
+                        < Li > < un  href = " # " > Ir al Artículo 3 </ una > </ li >
+                        < Li > < un  href = " # " > Ir al Artículo 4 </ una > </ li >
+                    </ ul >
+                </ nav >
+            </ aparte >
+        </ main >
+        <! - Pie de la página web ->
+        < pie de página > </ pie de página >
+    </ cuerpo >
+</ html >
