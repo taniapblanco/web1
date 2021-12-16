@@ -11,11 +11,11 @@
         <!-- Indéxame y sígueme -->
         <meta name="robots" content="Index, Follow" />
         <!-- Breve descripción del sitio que se verá en los resultados de búsqueda -->
-        <meta name="description" content="manual de clase en html5" />
+        <meta name="description" content="Web del curso IFCD0110 de Confección y Publicación de Páginas Web. Aprende HTML5, CSS Y JAVASCRIPT con nosotros. Somos los mejores." />
         <!-- Ruta a las hojas de estilos -->
-        <link rel="stylesheet" type="text/css" href="/css/basicos.css" />
+        <link rel="stylesheet" type="text/css" href="../css/basicos.css" />
         <!-- Ruta al favicon -->
-    	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
+        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXX-n"></script>
         <script>
@@ -24,35 +24,40 @@
             gtag('js', new Date());
             gtag('config', 'UA-XXXX-n');
         </script>
-        <!-- Título de la pestaña -->
-        <title>Título que se verá en la pestaña del navegador</title>
+           <!-- Título de la pestaña -->
+        <title> IFCD0110 | HTML5 </title>
     </head>
-
     <!-- Cuerpo visible del documento web -->
     <body>
         <header>
-            <a href="https://miweb.com">
+            <a href="../index.html" title="Página Principal">
                 <figure>
-                    <img src="images/logo_100.jpg" alt="Logo del sitio web" />
+                    <img src="../images/logo100.jpg" alt="Logo de mi Web">
                 </figure>
-                <h1>Título de la página de web</h1>
+                <h1>Proyecto del Curso de Confección y Publicación de Páginas Web </h1>
             </a>
-            <p class="pechado">Slogan del sitio web</p>
+            <p class="pechado">Proyecto web del curso IFCD0110</p>
         </header>
         <!-- Menú de navegación principal del sitio -->
         <nav>
             <h2 class="pechado">Menú principal</h2>
             <ul>
-                <li>Categorías
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li> Categorías
                     <ul>
                         <li>
-                            <a href="html5.html" title="Ir a la página de HTML5">HTML5</a>
+                            <a href="html5.html">html5</a>
                         </li>
                         <li>
-                            <a href="css.html" title="Ir a la página de CSS">CSS</a>
+                            <a href="css.html">css</a>
                         </li>
                         <li>
-                            <a href="js.html" title="Ir a la página de Javascript">Javascript</a>
+                            <a href="js.html">js</a>
+                        </li>
+                        <li>
+                            <a href="lorem_ipsum.html">lorem_ipsum</a>
                         </li>
                     </ul>
                 </li>
@@ -67,42 +72,109 @@
         <!-- Contenido principal de la página web -->
         <main>
             <section>
-                <h2>Mi equipo de trabajo</h2>
+                <h2>HTML Y HTML5</h2>
                 <article>
-                    <h3>Participante 1</h3>
-                    <p>Mi trabajo consiste en bla bla bla</p>
-                    <p>bla bla bla</p>
+                    <h3 id="historia">Breve historia del HTML</h3>
+                    <p>
+                        El primer documento formal con la descripción de HTML se publicó en 1991 bajo el nombre <a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" target="_blank">HTML Tags</a> (Etiquetas HTML) y todavía hoy puede ser consultado online a modo de <em>reliquia informática.</em>
+                    </p>
+                    <p>
+                        La primera propuesta oficial para convertir HTML en un estándar se realizó en 1993 por parte del organismo <a href="https://www.ietf.org/" target="_blank">IETF</a>(<em>Internet Engineering Task Force)</em>). Aunque se consiguieron avances significativos (en esta época se definieron las etiquetas para imágenes, tablas y formularios) ninguna de las dos propuestas de estándar, llamadas HTML y HTML+ consiguieron convertirse en estándar oficial.
+                    </p>
+                    <p>
+                        A partir de 1996, los estándares de HTML los publica otro organismo de estandarización llamado <a href="https://www.w3.org/" target="_blank">W3C</a> (<em>World Wide Web Consortium</em>). La versión HTML 3.2 se publicó el 14 de Enero de 1997 y es la primera recomendación de HTML publicada por el W3C. Esta revisión incorpora los últimos avances de las páginas web desarrolladas hasta 1996, como <em>applets </em>de Java y texto que fluye alrededor de las imágenes
+                    </p>
+                    <p>
+                         HTML 4.0 se publicó el 24 de Abril de 1998 (siendo una versión corregida de la publicación original del 18 de Diciembre de 1997) y supone un gran salto desde las versiones anteriores. Entre sus novedades más destacadas se encuentran las hojas de estilos CSS, la posibilidad de incluir pequeños programas o <em>scripts</em> en las páginas web, mejora de la accesibilidad de las páginas diseñadas, tablas complejas y mejoras en los formularios.
+                    </p>
+                    <p>
+                       La última especificación oficial de HTML se publicó el 24 de diciembre de 1999 y se denomina HTML 4.01. Se trata de una revisión y actualización de la versión HTML 4.0, por lo que no incluye novedades significativas. 
+                    </p>
+                    <p>
+                       <a href="https://html.spec.whatwg.org/multipage/" target="_blank">El primer borrador oficial</a> del stándar HTML5 se publicó el 22 de enero de 2008 
+                    </p>
+                <article>
+                    <h3 id="html">HTML</h3>
+                    <p>
+                      <strong>El <a href="https://es.wikipedia.org/wiki/HTML" target="_blank" >HTML</a> es un lenguaje de marcado </strong>que constituye uno de los pilares de la web. Fue inventado por <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners Lee</a> en 1990 a partir de otro lenguaje denominado <a href="https://es.wikipedia.org/wiki/SGML" target="_blank">SGML</a> y que servía para dotar de estructura documental a una información.
+                    </p>
+                    <p>
+                     <strong>El lenguaje de marcado </strong>es, básicamente, un idioma que <strong>se caracteriza por envolver el contenido</strong> (texto, enlaces, audio/imagen/video ...) <strong>entre marcas o etiquetas</strong> jerárquicas y semánticas.   
+                    </p>       
                 </article>
                 <article>
-                    <h3>Participante 2</h3>
-                    <p>Mi trabajo consiste en bla bla bla</p>
-                    <p>bla bla bla</p>
-                    <ul>
-                        <li>Ejemplo de lista anidada
-                            <ul>
-                                <li>Ítem 1</li>
-                                <li>Ítem 2</li>
-                                <li>Ítem 3</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <h3 id="html5">html5</h3>
+                    <p>
+                        <strong>El lenguaje HTML confiere a los documentos web estructura jerárquica y semántica al contenido </strong>final
+                    </p>
+                    <p>
+                        Etiquetar cada parte de un documento web aporta información enriquecida al usuario, a los motores de búsqueda y a los navegadores.
+                    </p>
+                    <p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Ej.Estructura de directorios</th>
+                                    <th>Ej.Estructura HTML</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <figure>
+                                        <img src="../images/estructura.png" alt="estructura directorio">
+                                    </figure>
+                                </tr>
+                                <tr>
+                                    <figure>
+                                        <img src="../images/estructurahtml.png" alt="estructura html">
+                                    </figure>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                    <p>
+                        <strong>HTML</strong> es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).
+                    </p>
+                    <p>
+                        El <strong>Lenguaje de Marcado de HiperTexto </strong>(HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos.
+                    </p>
+                    <p>
+                        "Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide Web» (Red Informática Mundial).
+
+                    </p>
+                    <a href="https://www.google.com/" title="Este es el enlace de Tamara para ir a Google" target="_blank" rel="nofollow"> Llévame a Google </a>
                 </article>
-                <!-- Pie de la sección -->
-                <footer></footer>
             </section>
             <aside>
-                <h2>Título de la barra lateral</h2>
+                <h2>Menú Lateral</h2>
                 <nav>
                     <ul>
-                        <li><a href="#">Ir al artículo 1</a></li>
-                        <li><a href="#">Ir al artículo 2</a></li>
-                        <li><a href="#">Ir al artículo 3</a></li>
-                        <li><a href="#">Ir al artículo 4</a></li>
+                        <li>
+                            <a href="#historia">Artículo 1</a>
+                        </li>
+                        <li>
+                            <a href="#html">Artículo 2</a>
+                        </li>
+                        <li>
+                            <a href="#html5">Artículo 3</a>
+                        </li>
                     </ul>
                 </nav>
             </aside>
         </main>
         <!-- Pie de la página web -->
-        <footer></footer>
+        <footer>
+            <h2>Pie de Página</h2>
+            <p>
+                En construcción...
+            </p>
+        </footer>
     </body>
 </html>
+
+
+
+
+
+
+
