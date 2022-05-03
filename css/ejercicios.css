@@ -1,0 +1,5 @@
+ul.galeria li {
+	/* background: lime; */
+	list-style: none;
+	display: inline-block;
+}
